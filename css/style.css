@@ -99,7 +99,6 @@ body {
 
   /* about us  */
   #aboutus{
-    height: 90vh;
     margin-bottom: 5rem;
   }
   .about-heading{
@@ -130,7 +129,7 @@ body {
 
 /* grid */
 #girdsection{
-  height: 80vh;
+ 
   margin: 6rem 0rem ;
 }
 .grid-image{
@@ -228,7 +227,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 70vh;
+  
   margin: 5rem 0rem;
 }
 
@@ -244,7 +243,7 @@ body {
 
 
 #whychooseus{
-  height: 80vh;
+  
   margin: 5rem 0;
 }
 
@@ -368,7 +367,7 @@ cursor: pointer;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 80vh;
+  
 }
 
 .spacing{
