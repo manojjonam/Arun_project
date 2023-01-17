@@ -21,7 +21,7 @@ body {
   }
 /* background image */
 .bg-image{
-    background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("./images/bg-image.jpg");
+    background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("/images/bg-image.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -31,8 +31,8 @@ body {
 }
   /* heading style  */
 
-    .text-highlight{
-        color: #e5e5e5;
+.text-highlight{
+  color: #e5e5e5;
   font-size: 2.26rem;
   text-transform: uppercase;
   height: 100vh;
