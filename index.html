@@ -8,6 +8,9 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <!-- font awsome  -->
 <script src="https://kit.fontawesome.com/4948f4081b.js" crossorigin="anonymous"></script>
 </head>
@@ -80,9 +83,9 @@
     <section id="aboutus">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mt-5 pt-5">
-                    <p>about us </p>
-                    <h2 class="about-heading">LEVELING UP YOUR CREATIVE MIND</h2>
+                <div class="col-lg-6 mt-5 mb-5 pt-5">
+                    <p class="fw-bold">about us </p>
+                    <h2 class="heading-text">LEVELING UP YOUR CREATIVE MIND</h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
                     <div class="about-icon-div">
                         <div class=" d-flex col-lg-6 p-3"><img class="about-icon" src="/images/myspace.png"><p class=" aboutIcon-text">120</p></div>
@@ -91,7 +94,7 @@
                         <div class=" d-flex col-lg-6 p-3"><img class="about-icon" src="/images/myspace.png"><p class=" aboutIcon-text">120</p></div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                   <img src="/images/image-1.jpg" class="aboutImage" alt="">
                 </div>
             </div>
@@ -101,8 +104,13 @@
     <section id="girdsection">
       <div class="container">
         <div class="row mt-5 ">
-          <div class="col-lg-4">
+          <div class="col-lg-4 content">
+            <div class="content-overlay"></div>
             <img src="/images/image-1.jpg" class="grid-image" alt="">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">This is a title</h3>
+              <p class="content-text">This is a short description</p>
+            </div>
           </div>
           <div class="col-lg-8">
             <div class=" row justify-content-evenly">
@@ -114,14 +122,27 @@
                   <p class="content-text">This is a short description</p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 content">
+                <div class="content-overlay"></div>
                 <img src="/images/image-2.1.jpg" class="grid-image2"  alt="">
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">This is a title</h3>
+                  <p class="content-text">This is a short description</p>
+                </div>
               </div>
-              <div class="grid-div  col-lg-5 m-3">
-                
+              <div class="grid-div mx-auto  col-lg-5 m-3">
+                <div class="">
+                  <h3 class="content-title">This is a title</h3>
+                  <p class="content-text">This is a short description</p>
+                </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 content">
+                <div class="content-overlay"></div>
                 <img src="/images/image-2.3.jpg" class="grid-image4"  alt="">
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">This is a title</h3>
+                  <p class="content-text">This is a short description</p>
+                </div>
               </div>
             </div>
           </div>
@@ -165,7 +186,7 @@
         <div class="row">
           <div class="col-lg-6">
             <p class="fw-bold"> Why choose us</p>
-            <p class=" whychooseus-text">GIVING YOU THE BEST SERVICES</p>
+            <p class=" heading-text">GIVING YOU THE BEST SERVICES</p>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.            </p>
           </div>
           <div class="col-lg-6">
@@ -213,7 +234,7 @@
         <div class="row">
           <div class="col-lg-4 pricing-text">
             <p class="fw-bold">Pricing Plan</p>
-            <p class="whychooseus-text">CHOOSE PLAN</p>
+            <p class="heading-text">CHOOSE PLAN</p>
             <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
             <a href="" class="btn btn-primary">sign up</a>
           </div>
@@ -271,18 +292,94 @@
 
     <section id="bookNow">
       <div class="container">
-        <div class="Glassmorphism mt-5">
-          <p class="whychooseus-text text-white">COME VISIT US AND BE MORE CREATIVE WITH US</p>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
-          <a href="">Book Now</a>
+        <div class="row">
+          <div class=" col-lg-8  Glassmorphism-1">
+            <p class="heading-text text-white">COME VISIT US AND BE MORE CREATIVE WITH US</p>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+            <a href="">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="owl-carousel">
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
 
 
 
 </body>
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/javascript.js">
+</script>
 </html>
