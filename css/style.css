@@ -16,16 +16,45 @@ body {
   }
 
   .heading-text{
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
+    color: #196046;
+    text-transform: uppercase;
+    line-height: 1em;
+
+  }
+  .sub-heading{
+    color: #FFCB19;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .sub-para{
+    color: #A2A2A2;
+    font-size: 16px;
+  }
+  .sub-heading-1{
+    color: #196046;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1em;
+  }
+  .progress-bar{
+    background-color: #196046 !important;
+  }
+  .progress-bar-text{
+    color: #196046;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 1em;
+
   }
 /* background image */
 .bg-image{
-    background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-image.jpg");
+    background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
-    /* mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent); */
+    background-position: center center;
+    background-size: cover;
     width: auto;
     height: 90vh;
 }
@@ -223,12 +252,13 @@ body {
 }
 
 #reviewSection{
-  background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-image.jpg");
+  background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-carousel.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  
+  background-size: cover;
   margin: 5rem 0rem;
+  height: 30rem;
 }
 
 .carousel-text{
@@ -363,7 +393,7 @@ cursor: pointer;
 
 #bookNow{
   margin: 3rem 0;
-  background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-image.jpg");
+  background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -386,7 +416,7 @@ margin-top: 10%;
 /* footer */
 .site-footer
 {
-  background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-image.jpg");
+  background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -394,6 +424,17 @@ margin-top: 10%;
   font-size:15px;
   line-height:24px;
   color:#ffff;
+}
+.footerglass{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 1em;
+}
+.footer-heading{
+  color: #FFCB19 !important;
+  font-weight: 700;
 }
 .site-footer hr
 {
