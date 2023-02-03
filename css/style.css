@@ -48,6 +48,22 @@ body {
     margin-top: 1em;
 
   }
+  a{
+    text-decoration: none  !important;
+  }
+  .btn-style{
+    padding: 18px 30px;
+    background-color: #196046;
+    color: #fff;
+    
+  }
+  .btn-style-white{
+    padding: 18px 30px;
+    color: #fff;
+    background-color: #19604600;
+    border: 1px solid #fff;
+  
+  }
 /* background image */
 .bg-image{
     background-image:linear-gradient(0deg, rgba(59, 56, 58, 0.351), rgba(48, 48, 48, 0.375)), url("../images/bg-.jpg");
@@ -145,10 +161,20 @@ body {
     /* height: 10%; */
   
   }
+  .aboutIcon{
+    color: #FFCB19;
+    font-size: 4rem !important;
+    padding: 0.5rem;
+  }
   .aboutIcon-text{
-    font-size: 2.5rem;
-    margin-left: .5rem;
-    font-weight: 600;
+    color: #196046;
+    font-size: 54px;
+    margin: 0;
+    font-weight: 800;
+  }
+  .aboutIcon-text-sub{
+    font-size: 18px;
+    color: #A2A2A2;
   }
 
 .aboutImage{
@@ -293,7 +319,7 @@ body {
 
 .card-1, .card-2  {
   /* background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(https:/../images.pexels.com/photos/589840/pexels-photo-589840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center no-repeat /cover; */
-  box-shadow: 7px 18px 50px #555;
+  box-shadow: 7px 18px 50px rgb(153, 152, 152);
   /* max-width: 500px; */
   width: 18rem;
 }
@@ -305,7 +331,9 @@ letter-spacing: 2px;
 
 .price {
 /* font-family: 'Josefin Sans', sans-serif; */
-font-size: 60px
+font-size: 60px;
+color: #196046;
+font-weight: 600;
 }
 
 .card-list-item {
@@ -314,74 +342,6 @@ font-size: 60px
   margin: auto;
 }
 
-.price-card-button {
-  background: #f5593d;
-  width: 130px;
-  border-radius: 0;
-  box-shadow: 5px 8px 18px #000;
-  transition: .2s;
-}
-
-.price-card-button:hover {
-  background: #f9793d;
-  transform: translateY(-2px);
-}
-
-.card-1 {
-  transition: transform .5s;
-  animation-name: moveFromLeft;
-  animation-duration: 2s;
-}
-
-.card-1:hover {
-transform: scale(1.1);
-cursor: pointer;
-}
-
-
-.card-2 {
-  transition: transform .5s;
-  animation-name: moveFromBottom;
-  animation-duration: 2s;
-}
-
-.card-2:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-@keyframes moveFromLeft {
-  0% {
-      transform: translateX(-100px);
-      opacity: 0;
-  }
-  100% {
-      transform: translateX(0);
-      opacity: 1;
-  }
-}
-
-@keyframes moveFromRight {
-  0% {
-      transform: translateX(100px);
-      opacity: 0;
-  }
-  100% {
-      transform: translateX(0);
-      opacity: 1;
-  }
-}
-
-@keyframes moveFromBottom {
-  0% {
-      transform: translateY(100px);
-      opacity: 0;
-  }
-  100% {
-      transform: translateY(0);
-      opacity: 1;
-  }
-}
 
 #bookNow{
   margin: 3rem 0;
@@ -399,7 +359,7 @@ cursor: pointer;
   background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
+backdrop-filter: blur(7px);
 padding: 2rem;
 margin: 15% auto !important;
 margin-top: 10%;
