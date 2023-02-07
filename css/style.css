@@ -51,6 +51,9 @@ body {
   a{
     text-decoration: none  !important;
   }
+  a:hover {
+    color: #FFCB19 !important;
+  }
   .btn-style{
     padding: 18px 30px;
     background-color: #196046;
@@ -341,7 +344,13 @@ font-weight: 600;
   width: 55%;
   margin: auto;
 }
-
+.carousel-logo-section{
+  margin: 2rem 0;
+}
+.carousel-logo{
+  width: 10rem !important;
+  padding: 1rem;
+}
 
 #bookNow{
   margin: 3rem 0;
