@@ -231,11 +231,12 @@ body {
  
   margin: 6rem 0rem ;
 }
-
+.grid-4{
+  
+}
 .grid-div{
-  /* width: 15rem !important; */
-  /* height: 10rem; */
-  background-color: aquamarine;
+  background-color: #196046;
+  color: #fff;
 }
 
 .content {
