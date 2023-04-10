@@ -92,7 +92,7 @@ body {
     background-position: center center;
     background-size: cover;
     width: auto;
-    height: 90vh;
+    height: 95vh;
 }
   /* heading style  */
 
@@ -370,7 +370,20 @@ body {
 .fa-check{
   color: #FFCB19;
 }
-
+.services .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #222222 !important;
+  transition: background-color 0.2s ease-in 0s;
+  width: 100%;
+  align-items: flex-start;
+  cursor: pointer;
+  border-left: 8px solid #FFCB19;
+  overflow: hidden;
+  border-radius: 4px 0px 0px 4px;
+  background-color: white;
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.2) 3px 3px 6px);
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 3px 3px 6px);
+}
 
 .title {
   font-family: 'Raleway', sans-serif;
