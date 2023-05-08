@@ -66,6 +66,11 @@ body {
     color: #fff;
     
   }
+  .btn-small{
+    padding: 18px 30px;
+    color: #fff;
+    background-color: #196046;
+  }
   .btn-style-white{
     padding: 18px 30px;
     color: #fff;
@@ -231,9 +236,7 @@ body {
  
   margin: 6rem 0rem ;
 }
-.grid-4{
-  
-}
+
 .grid-div{
   background-color: #196046;
   color: #fff;
