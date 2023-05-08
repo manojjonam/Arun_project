@@ -430,7 +430,12 @@ font-weight: 600;
   background-position: center;
   
 }
-
+.tabHeader{
+  color: #222222;
+}
+.tabpara{
+  color: #222222;
+}
 .spacing{
   margin-bottom: 2rem;
 }
